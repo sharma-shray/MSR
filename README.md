@@ -22,7 +22,7 @@ Software requirements:
 Process:
 Important links and information: 
 1. Git hub rep for source code: https://github.com/freenet/fred/commit/fc532a10a6f3090e1a09a62d804466bfeac70c5e
-2. The refernce paper was having incomplete list of commits so a finalized list of commits has been placed in the process folder along with the java files for the commits just for reference.
+2. The refernce paper[1] was having incomplete list of commits so a finalized list of commits has been placed in the process folder along with the java files for the commits just for reference.
 3. Steps to install unit test automation tool: (https://medium.com/better-programming/this-ai-tool-write-great-unit-tests-acfbfab53c09).
 
 Steps to reproduce:
@@ -50,9 +50,11 @@ We see that the tools have gotten more compatible and mould themselves according
 
 
 Delta:
-Process Delta: As the reference paper was a reproduction of an older paper for tools which were very old , choosing the same tools again does not actually compare how much the automation testing capabilities have evolved and hence an AI base automation tool was compared with the older tools and manual efforts to get a clearer picture of devlopment.
 
+Process Delta: As the reference paper was a reproduction of an older paper for tools which were very old , choosing the same tools again does not actually compare how much the automation testing capabilities have evolved and hence an AI base automation tool was compared with the older tools and manual efforts to get a clearer picture of devlopment.
 The comparison matrix remains the same, and so does the code base. But the automation tools used have been changed to see the actual growth.
 
 Data Delta: the table of clases mentione din the reference paper contains15 classes but the commit ID shared by the reference paper has only 6 unique commits mapping to 6 classes and hence the redundant data has been refined to leave us with 6 unique classes to be compared . 
 
+Refrence:
+1. D. Serra, G. Grano, F. Palomba, F. Ferrucci, H. C. Gall and A. Bacchelli, "On the Effectiveness of Manual and Automatic Unit Test Generation: Ten Years Later," 2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR), Montreal, QC, Canada, 2019, pp. 121-125, doi: 10.1109/MSR.2019.00028
