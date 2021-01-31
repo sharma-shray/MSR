@@ -1,4 +1,15 @@
 
+package freenet.support;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.math.BigInteger;
+import java.util.BitSet;
+
+import freenet.support.Logger.LogLevel;
+
+
 public class HexUtil {
 	private static boolean logDEBUG =Logger.logger.instanceShouldLog(Logger.DEBUG,HexUtil.class);
 	private HexUtil() {		

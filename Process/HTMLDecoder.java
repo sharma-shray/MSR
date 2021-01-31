@@ -103,19 +103,19 @@ public class HTMLDecoder {
 		}
 		return sb.toString();
 	}
-	private static boolean isLetterOrDigit(char c) {
+	public static boolean isLetterOrDigit(char c) {
 		return isLetter(c) || isDigit(c);
 	}
-	private static boolean isHexDigit(char c) {
+	public static boolean isHexDigit(char c) {
 		return isHexLetter(c) || isDigit(c);
 	}
-	private static boolean isLetter(char c) {
+	public static boolean isLetter(char c) {
 		return ((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z'));
 	}
-	private static boolean isHexLetter(char c) {
+	public static boolean isHexLetter(char c) {
 		return ((c >= 'a') && (c <= 'f')) || ((c >= 'A') && (c <= 'F'));
 	}
-	private static boolean isDigit(char c) {
+	public static boolean isDigit(char c) {
 		return (c >= '0') && (c <= '9');
 	}
 	public static String compact(String s) {
